@@ -22,8 +22,7 @@ addButton.addEventListener('click', () =>{
         enteredReason.trim().length<=0 ||
         enteredAmount<=0|| 
         enteredAmount.trim().length<=0
-        ) { 
-            alertCtrl.create({message : 'please enter a valid data '});
+        ) {
         return; 
     }
     
